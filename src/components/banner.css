@@ -1,0 +1,68 @@
+.container-texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFF;
+    margin-top: 45px;
+}
+
+.texto-banner {
+    line-height: 0;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.subtexto-banner {
+    font-size: 1rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+@media (max-width: 320px) {
+    .texto-banner {
+        font-size: 1.5rem;
+    }
+
+    .subtexto-banner {
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 375px) {
+    .texto-banner {
+        font-size: 1.9rem;
+        line-height: 0;
+
+    }
+
+    .subtexto-banner {
+        font-size: 0.7rem;
+    }
+
+}
+
+@media (min-width: 360px) {
+        .texto-banner {
+            font-size: 1.8rem;
+            line-height: 0;
+
+        }
+
+        .subtexto-banner {
+            font-size: 0.7rem;
+        }
+}
+
+@media (min-width: 768px) {
+        .texto-banner {
+            font-size: 3rem;
+            line-height: 0;
+
+        }
+
+        .subtexto-banner {
+            font-size: 1rem;
+        }
+}

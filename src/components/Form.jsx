@@ -42,7 +42,7 @@ const Form = ({TextForm}) => {
 
     return (
         <div className="container-form">
-                    <p>{TextForm}</p>
+                    <p className="text-form">{TextForm}</p>
             <form onSubmit={handleSubmit}>
                 <div className="form-control">
                     <input

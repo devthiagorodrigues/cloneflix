@@ -39,4 +39,43 @@ input::placeholder {
     font-weight: 800;
     font-size: 1.5rem;
     cursor: pointer;
+    margin-bottom: 50px;
+}
+
+
+@media (max-width: 768px) {
+    .container-form {
+        margin-top: 20px;
+    }
+
+    input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .buttonForm {
+        width: 85vw;
+        box-sizing: border-box;
+    }
+
+    .text-form {
+        max-width: 70vw;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .container-form {
+        margin-top: 20px;
+    }
+
+    input {
+        height: 45px;
+    }
+
+    .buttonForm {
+        height: 45px;
+    }
 }
