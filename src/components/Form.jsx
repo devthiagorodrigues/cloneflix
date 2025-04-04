@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../Components/form.css";
+import "../components/form.css";
 
 const Form = ({TextForm}) => {
     const initialForm = {
